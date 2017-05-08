@@ -7,8 +7,11 @@ gulp.task('watch', function () {
 
     browserSync.init({
         notify: false,
+        logLevel: "debug",
         server: {
-            baseDir: "app"
+            baseDir: "app",
+            browser: "Chrome"
+            
         }
     });
 
