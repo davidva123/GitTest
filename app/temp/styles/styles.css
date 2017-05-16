@@ -435,6 +435,10 @@ img {
   box-sizing:border-box;
 }
 
+a{
+  color:#d59541;
+}
+
 .large-hero {
   border-bottom: 10px solid #2f5572;
   position: relative;
@@ -624,6 +628,10 @@ padding: 1.2rem 0;
   margin-bottom:1.6em;
 }
 
+.headline--no-t-margin{
+  margin-top:0px;
+}
+
 .row::after {
   content: "";
   clear: both;
@@ -657,4 +665,14 @@ padding: 1.2rem 0;
   .row__medium-8--smaller {
     width: 63%;
   }
+}
+
+.generic-content-container p{
+  line-height:1.65;
+  font-size:1.125rem;
+  margin:1.8rem;
+}
+
+.generic-content-container p a{
+  font-weight:700;
 }
